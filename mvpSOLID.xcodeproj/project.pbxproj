@@ -20,6 +20,7 @@
 		E3A20FED2AF784FB005331BA /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A20FEC2AF784FB005331BA /* MainPresenter.swift */; };
 		E3A20FF32AF82BC7005331BA /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3A20FF22AF82BC7005331BA /* MainViewController.xib */; };
 		E3A20FF52AF82D75005331BA /* ModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A20FF42AF82D75005331BA /* ModuleBuilder.swift */; };
+		E3A20FF72AF83264005331BA /* MainPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A20FF62AF83264005331BA /* MainPresenterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		E3A20FEC2AF784FB005331BA /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
 		E3A20FF22AF82BC7005331BA /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		E3A20FF42AF82D75005331BA /* ModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleBuilder.swift; sourceTree = "<group>"; };
+		E3A20FF62AF83264005331BA /* MainPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				E3A20FD12AF78209005331BA /* mvpSOLIDTests.swift */,
+				E3A20FF82AF83269005331BA /* MainModuleTests */,
 			);
 			path = mvpSOLIDTests;
 			sourceTree = "<group>";
@@ -167,6 +170,22 @@
 			isa = PBXGroup;
 			children = (
 				E3A20FEC2AF784FB005331BA /* MainPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		E3A20FF82AF83269005331BA /* MainModuleTests */ = {
+			isa = PBXGroup;
+			children = (
+				E3A20FF92AF83275005331BA /* Presenter */,
+			);
+			path = MainModuleTests;
+			sourceTree = "<group>";
+		};
+		E3A20FF92AF83275005331BA /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E3A20FF62AF83264005331BA /* MainPresenterTests.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -317,6 +336,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3A20FD22AF78209005331BA /* mvpSOLIDTests.swift in Sources */,
+				E3A20FF72AF83264005331BA /* MainPresenterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
