@@ -1,13 +1,13 @@
 //
-//  MVP____SOLID_c_DI___Unit_testUITestsLaunchTests.swift
-//  MVP по SOLID c DI и Unit testUITests
+//  mvpSOLIDUITestsLaunchTests.swift
+//  mvpSOLIDUITests
 //
 //  Created by Goodwasp on 05.11.2023.
 //
 
 import XCTest
 
-final class MVP____SOLID_c_DI___Unit_testUITestsLaunchTests: XCTestCase {
+final class mvpSOLIDUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

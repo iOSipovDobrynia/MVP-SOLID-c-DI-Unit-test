@@ -1,14 +1,14 @@
 //
-//  MVP____SOLID_c_DI___Unit_testTests.swift
-//  MVP по SOLID c DI и Unit testTests
+//  mvpSOLIDTests.swift
+//  mvpSOLIDTests
 //
 //  Created by Goodwasp on 05.11.2023.
 //
 
 import XCTest
-@testable import MVP____SOLID_c_DI___Unit_test
+@testable import mvpSOLID
 
-final class MVP____SOLID_c_DI___Unit_testTests: XCTestCase {
+final class mvpSOLIDTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

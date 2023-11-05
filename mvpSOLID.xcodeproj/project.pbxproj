@@ -13,9 +13,9 @@
 		E3A20FC22AF78207005331BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3A20FC02AF78207005331BA /* Main.storyboard */; };
 		E3A20FC42AF78209005331BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3A20FC32AF78209005331BA /* Assets.xcassets */; };
 		E3A20FC72AF78209005331BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3A20FC52AF78209005331BA /* LaunchScreen.storyboard */; };
-		E3A20FD22AF78209005331BA /* MVP____SOLID_c_DI___Unit_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A20FD12AF78209005331BA /* MVP____SOLID_c_DI___Unit_testTests.swift */; };
-		E3A20FDC2AF78209005331BA /* MVP____SOLID_c_DI___Unit_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A20FDB2AF78209005331BA /* MVP____SOLID_c_DI___Unit_testUITests.swift */; };
-		E3A20FDE2AF78209005331BA /* MVP____SOLID_c_DI___Unit_testUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A20FDD2AF78209005331BA /* MVP____SOLID_c_DI___Unit_testUITestsLaunchTests.swift */; };
+		E3A20FD22AF78209005331BA /* mvpSOLIDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A20FD12AF78209005331BA /* mvpSOLIDTests.swift */; };
+		E3A20FDC2AF78209005331BA /* mvpSOLIDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A20FDB2AF78209005331BA /* mvpSOLIDUITests.swift */; };
+		E3A20FDE2AF78209005331BA /* mvpSOLIDUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A20FDD2AF78209005331BA /* mvpSOLIDUITestsLaunchTests.swift */; };
 		E3A20FEB2AF7840C005331BA /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A20FEA2AF7840C005331BA /* Person.swift */; };
 		E3A20FED2AF784FB005331BA /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3A20FEC2AF784FB005331BA /* MainPresenter.swift */; };
 		E3A20FF32AF82BC7005331BA /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E3A20FF22AF82BC7005331BA /* MainViewController.xib */; };
@@ -40,7 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E3A20FB72AF78207005331BA /* MVP по SOLID c DI и Unit test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVP по SOLID c DI и Unit test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3A20FB72AF78207005331BA /* mvpSOLID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mvpSOLID.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3A20FBA2AF78207005331BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3A20FBC2AF78207005331BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E3A20FBE2AF78207005331BA /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -48,11 +48,11 @@
 		E3A20FC32AF78209005331BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3A20FC62AF78209005331BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3A20FC82AF78209005331BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E3A20FCD2AF78209005331BA /* MVP по SOLID c DI и Unit testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVP по SOLID c DI и Unit testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3A20FD12AF78209005331BA /* MVP____SOLID_c_DI___Unit_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MVP____SOLID_c_DI___Unit_testTests.swift"; sourceTree = "<group>"; };
-		E3A20FD72AF78209005331BA /* MVP по SOLID c DI и Unit testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MVP по SOLID c DI и Unit testUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E3A20FDB2AF78209005331BA /* MVP____SOLID_c_DI___Unit_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MVP____SOLID_c_DI___Unit_testUITests.swift"; sourceTree = "<group>"; };
-		E3A20FDD2AF78209005331BA /* MVP____SOLID_c_DI___Unit_testUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MVP____SOLID_c_DI___Unit_testUITestsLaunchTests.swift"; sourceTree = "<group>"; };
+		E3A20FCD2AF78209005331BA /* mvpSOLIDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mvpSOLIDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3A20FD12AF78209005331BA /* mvpSOLIDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mvpSOLIDTests.swift; sourceTree = "<group>"; };
+		E3A20FD72AF78209005331BA /* mvpSOLIDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mvpSOLIDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3A20FDB2AF78209005331BA /* mvpSOLIDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mvpSOLIDUITests.swift; sourceTree = "<group>"; };
+		E3A20FDD2AF78209005331BA /* mvpSOLIDUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mvpSOLIDUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		E3A20FEA2AF7840C005331BA /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		E3A20FEC2AF784FB005331BA /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
 		E3A20FF22AF82BC7005331BA /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
@@ -87,9 +87,9 @@
 		E3A20FAE2AF78207005331BA = {
 			isa = PBXGroup;
 			children = (
-				E3A20FB92AF78207005331BA /* MVP по SOLID c DI и Unit test */,
-				E3A20FD02AF78209005331BA /* MVP по SOLID c DI и Unit testTests */,
-				E3A20FDA2AF78209005331BA /* MVP по SOLID c DI и Unit testUITests */,
+				E3A20FB92AF78207005331BA /* mvpSOLID */,
+				E3A20FD02AF78209005331BA /* mvpSOLIDTests */,
+				E3A20FDA2AF78209005331BA /* mvpSOLIDUITests */,
 				E3A20FB82AF78207005331BA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,14 +97,14 @@
 		E3A20FB82AF78207005331BA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E3A20FB72AF78207005331BA /* MVP по SOLID c DI и Unit test.app */,
-				E3A20FCD2AF78209005331BA /* MVP по SOLID c DI и Unit testTests.xctest */,
-				E3A20FD72AF78209005331BA /* MVP по SOLID c DI и Unit testUITests.xctest */,
+				E3A20FB72AF78207005331BA /* mvpSOLID.app */,
+				E3A20FCD2AF78209005331BA /* mvpSOLIDTests.xctest */,
+				E3A20FD72AF78209005331BA /* mvpSOLIDUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E3A20FB92AF78207005331BA /* MVP по SOLID c DI и Unit test */ = {
+		E3A20FB92AF78207005331BA /* mvpSOLID */ = {
 			isa = PBXGroup;
 			children = (
 				E3A20FBA2AF78207005331BA /* AppDelegate.swift */,
@@ -116,24 +116,24 @@
 				E3A20FC52AF78209005331BA /* LaunchScreen.storyboard */,
 				E3A20FC82AF78209005331BA /* Info.plist */,
 			);
-			path = "MVP по SOLID c DI и Unit test";
+			path = mvpSOLID;
 			sourceTree = "<group>";
 		};
-		E3A20FD02AF78209005331BA /* MVP по SOLID c DI и Unit testTests */ = {
+		E3A20FD02AF78209005331BA /* mvpSOLIDTests */ = {
 			isa = PBXGroup;
 			children = (
-				E3A20FD12AF78209005331BA /* MVP____SOLID_c_DI___Unit_testTests.swift */,
+				E3A20FD12AF78209005331BA /* mvpSOLIDTests.swift */,
 			);
-			path = "MVP по SOLID c DI и Unit testTests";
+			path = mvpSOLIDTests;
 			sourceTree = "<group>";
 		};
-		E3A20FDA2AF78209005331BA /* MVP по SOLID c DI и Unit testUITests */ = {
+		E3A20FDA2AF78209005331BA /* mvpSOLIDUITests */ = {
 			isa = PBXGroup;
 			children = (
-				E3A20FDB2AF78209005331BA /* MVP____SOLID_c_DI___Unit_testUITests.swift */,
-				E3A20FDD2AF78209005331BA /* MVP____SOLID_c_DI___Unit_testUITestsLaunchTests.swift */,
+				E3A20FDB2AF78209005331BA /* mvpSOLIDUITests.swift */,
+				E3A20FDD2AF78209005331BA /* mvpSOLIDUITestsLaunchTests.swift */,
 			);
-			path = "MVP по SOLID c DI и Unit testUITests";
+			path = mvpSOLIDUITests;
 			sourceTree = "<group>";
 		};
 		E3A20FEE2AF82B35005331BA /* MainModule */ = {
@@ -174,9 +174,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E3A20FB62AF78207005331BA /* MVP по SOLID c DI и Unit test */ = {
+		E3A20FB62AF78207005331BA /* mvpSOLID */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E3A20FE12AF78209005331BA /* Build configuration list for PBXNativeTarget "MVP по SOLID c DI и Unit test" */;
+			buildConfigurationList = E3A20FE12AF78209005331BA /* Build configuration list for PBXNativeTarget "mvpSOLID" */;
 			buildPhases = (
 				E3A20FB32AF78207005331BA /* Sources */,
 				E3A20FB42AF78207005331BA /* Frameworks */,
@@ -186,14 +186,14 @@
 			);
 			dependencies = (
 			);
-			name = "MVP по SOLID c DI и Unit test";
+			name = mvpSOLID;
 			productName = "MVP по SOLID c DI и Unit test";
-			productReference = E3A20FB72AF78207005331BA /* MVP по SOLID c DI и Unit test.app */;
+			productReference = E3A20FB72AF78207005331BA /* mvpSOLID.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E3A20FCC2AF78209005331BA /* MVP по SOLID c DI и Unit testTests */ = {
+		E3A20FCC2AF78209005331BA /* mvpSOLIDTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E3A20FE42AF78209005331BA /* Build configuration list for PBXNativeTarget "MVP по SOLID c DI и Unit testTests" */;
+			buildConfigurationList = E3A20FE42AF78209005331BA /* Build configuration list for PBXNativeTarget "mvpSOLIDTests" */;
 			buildPhases = (
 				E3A20FC92AF78209005331BA /* Sources */,
 				E3A20FCA2AF78209005331BA /* Frameworks */,
@@ -204,14 +204,14 @@
 			dependencies = (
 				E3A20FCF2AF78209005331BA /* PBXTargetDependency */,
 			);
-			name = "MVP по SOLID c DI и Unit testTests";
+			name = mvpSOLIDTests;
 			productName = "MVP по SOLID c DI и Unit testTests";
-			productReference = E3A20FCD2AF78209005331BA /* MVP по SOLID c DI и Unit testTests.xctest */;
+			productReference = E3A20FCD2AF78209005331BA /* mvpSOLIDTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E3A20FD62AF78209005331BA /* MVP по SOLID c DI и Unit testUITests */ = {
+		E3A20FD62AF78209005331BA /* mvpSOLIDUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E3A20FE72AF78209005331BA /* Build configuration list for PBXNativeTarget "MVP по SOLID c DI и Unit testUITests" */;
+			buildConfigurationList = E3A20FE72AF78209005331BA /* Build configuration list for PBXNativeTarget "mvpSOLIDUITests" */;
 			buildPhases = (
 				E3A20FD32AF78209005331BA /* Sources */,
 				E3A20FD42AF78209005331BA /* Frameworks */,
@@ -222,9 +222,9 @@
 			dependencies = (
 				E3A20FD92AF78209005331BA /* PBXTargetDependency */,
 			);
-			name = "MVP по SOLID c DI и Unit testUITests";
+			name = mvpSOLIDUITests;
 			productName = "MVP по SOLID c DI и Unit testUITests";
-			productReference = E3A20FD72AF78209005331BA /* MVP по SOLID c DI и Unit testUITests.xctest */;
+			productReference = E3A20FD72AF78209005331BA /* mvpSOLIDUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -250,7 +250,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E3A20FB22AF78207005331BA /* Build configuration list for PBXProject "MVP по SOLID c DI и Unit test" */;
+			buildConfigurationList = E3A20FB22AF78207005331BA /* Build configuration list for PBXProject "mvpSOLID" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -263,9 +263,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E3A20FB62AF78207005331BA /* MVP по SOLID c DI и Unit test */,
-				E3A20FCC2AF78209005331BA /* MVP по SOLID c DI и Unit testTests */,
-				E3A20FD62AF78209005331BA /* MVP по SOLID c DI и Unit testUITests */,
+				E3A20FB62AF78207005331BA /* mvpSOLID */,
+				E3A20FCC2AF78209005331BA /* mvpSOLIDTests */,
+				E3A20FD62AF78209005331BA /* mvpSOLIDUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -316,7 +316,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3A20FD22AF78209005331BA /* MVP____SOLID_c_DI___Unit_testTests.swift in Sources */,
+				E3A20FD22AF78209005331BA /* mvpSOLIDTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,8 +324,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3A20FDC2AF78209005331BA /* MVP____SOLID_c_DI___Unit_testUITests.swift in Sources */,
-				E3A20FDE2AF78209005331BA /* MVP____SOLID_c_DI___Unit_testUITestsLaunchTests.swift in Sources */,
+				E3A20FDC2AF78209005331BA /* mvpSOLIDUITests.swift in Sources */,
+				E3A20FDE2AF78209005331BA /* mvpSOLIDUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,12 +334,12 @@
 /* Begin PBXTargetDependency section */
 		E3A20FCF2AF78209005331BA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E3A20FB62AF78207005331BA /* MVP по SOLID c DI и Unit test */;
+			target = E3A20FB62AF78207005331BA /* mvpSOLID */;
 			targetProxy = E3A20FCE2AF78209005331BA /* PBXContainerItemProxy */;
 		};
 		E3A20FD92AF78209005331BA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E3A20FB62AF78207005331BA /* MVP по SOLID c DI и Unit test */;
+			target = E3A20FB62AF78207005331BA /* mvpSOLID */;
 			targetProxy = E3A20FD82AF78209005331BA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -491,7 +491,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "MVP по SOLID c DI и Unit test/Info.plist";
+				INFOPLIST_FILE = mvpSOLID/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -502,7 +502,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "me.osipov.dobrynia.MVP----SOLID-c-DI---Unit-test";
+				PRODUCT_BUNDLE_IDENTIFIER = me.osipov.dobrynia.mvpSOLID;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -521,7 +521,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "MVP по SOLID c DI и Unit test/Info.plist";
+				INFOPLIST_FILE = mvpSOLID/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -532,7 +532,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "me.osipov.dobrynia.MVP----SOLID-c-DI---Unit-test";
+				PRODUCT_BUNDLE_IDENTIFIER = me.osipov.dobrynia.mvpSOLID;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -558,7 +558,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVP по SOLID c DI и Unit test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MVP по SOLID c DI и Unit test";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mvpSOLID.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mvpSOLID";
 			};
 			name = Debug;
 		};
@@ -577,7 +577,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVP по SOLID c DI и Unit test.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MVP по SOLID c DI и Unit test";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mvpSOLID.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mvpSOLID";
 			};
 			name = Release;
 		};
@@ -618,7 +618,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E3A20FB22AF78207005331BA /* Build configuration list for PBXProject "MVP по SOLID c DI и Unit test" */ = {
+		E3A20FB22AF78207005331BA /* Build configuration list for PBXProject "mvpSOLID" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E3A20FDF2AF78209005331BA /* Debug */,
@@ -627,7 +627,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E3A20FE12AF78209005331BA /* Build configuration list for PBXNativeTarget "MVP по SOLID c DI и Unit test" */ = {
+		E3A20FE12AF78209005331BA /* Build configuration list for PBXNativeTarget "mvpSOLID" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E3A20FE22AF78209005331BA /* Debug */,
@@ -636,7 +636,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E3A20FE42AF78209005331BA /* Build configuration list for PBXNativeTarget "MVP по SOLID c DI и Unit testTests" */ = {
+		E3A20FE42AF78209005331BA /* Build configuration list for PBXNativeTarget "mvpSOLIDTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E3A20FE52AF78209005331BA /* Debug */,
@@ -645,7 +645,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E3A20FE72AF78209005331BA /* Build configuration list for PBXNativeTarget "MVP по SOLID c DI и Unit testUITests" */ = {
+		E3A20FE72AF78209005331BA /* Build configuration list for PBXNativeTarget "mvpSOLIDUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E3A20FE82AF78209005331BA /* Debug */,

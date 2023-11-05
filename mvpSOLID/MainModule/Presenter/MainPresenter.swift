@@ -1,6 +1,6 @@
 //
 //  MainPresenter.swift
-//  MVP по SOLID c DI и Unit test
+//  mvpSOLID
 //
 //  Created by Goodwasp on 05.11.2023.
 //
