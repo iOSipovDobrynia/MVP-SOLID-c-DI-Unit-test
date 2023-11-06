@@ -9,13 +9,24 @@ import UIKit
 
 protocol Builder {
     static func createMainModule() -> UIViewController
+    static func CreateDetailModule(comment: Comment?) -> UIViewController
 }
 
 class ModuleBuilder: Builder {
+    
     static func createMainModule() -> UIViewController {
-        let model = Person(firstName: "David", lastName: "Blaine")
         let view = MainViewController()
-        let presenter = MainPresenter(view: view, person: model)
+        let networkManager = NetworkManager()
+        let presenter = MainPresenter(view: view, networkManager: networkManager)
+        view.presenter = presenter
+        
+        return view
+    }
+    
+    static func CreateDetailModule(comment: Comment?) -> UIViewController {
+        let view = DetailViewController()
+        let networkManager = NetworkManager()
+        let presenter = DetailPresenter(view: view, networkManager: networkManager, comment: comment)
         view.presenter = presenter
         
         return view
