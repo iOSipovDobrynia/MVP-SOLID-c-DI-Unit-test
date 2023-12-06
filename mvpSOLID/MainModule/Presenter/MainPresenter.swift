@@ -13,24 +13,35 @@ protocol MainViewProtocol: AnyObject {
 }
 
 protocol MainViewPresenterProtocol: AnyObject {
-    init(view: MainViewProtocol, networkManager: NetworkManagerProtocol)
+    init(view: MainViewProtocol, networkManager: NetworkManagerProtocol, router: RouterProtocol)
     
     func fetchComments()
     var comments: [Comment]? {get set}
+    
+    func tapOnTheComment(comment: Comment?)
 }
 
 class MainPresenter: MainViewPresenterProtocol {
     
+    // MARK: - Properties
     weak var view: MainViewProtocol?
+    var router: RouterProtocol?
     let networkManager: NetworkManagerProtocol
     var comments: [Comment]?
     
-    required init(view: MainViewProtocol, networkManager: NetworkManagerProtocol) {
+    // MARK: - Initialization
+    required init(view: MainViewProtocol, networkManager: NetworkManagerProtocol, router: RouterProtocol) {
         self.view = view
         self.networkManager = networkManager
+        self.router = router
         fetchComments()
     }
-    
+
+    // MARK: - Methods
+    func tapOnTheComment(comment: Comment?) {
+        router?.showDetail(comment: comment)
+    }
+
     func fetchComments() {
         networkManager.fetchComments { [weak self] result in
             DispatchQueue.main.async {

@@ -16,6 +16,7 @@ class MainViewController: UIViewController {
     // MARK: - Public properties
     var presenter: MainViewPresenterProtocol!
     
+    // MARK: - View's lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -29,11 +30,7 @@ extension MainViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         let comment = presenter.comments?[indexPath.row]
-        
-        let detailVC = ModuleBuilder.CreateDetailModule(comment: comment)
-        
-        navigationController?.pushViewController(detailVC, animated: true)
-        navigationController?.modalPresentationStyle = .fullScreen
+        presenter.tapOnTheComment(comment: comment)
     }
 }
 

@@ -15,10 +15,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: windowScene)
         
-        let mainVC = ModuleBuilder.createMainModule()
-        let navigationBar = UINavigationController(rootViewController: mainVC)
+        let navigationController = UINavigationController()
+        let assemblyBuilder = AssemblyModuleBuilder()
+        let router = Router(navigationController: navigationController, assemblyBuilder: assemblyBuilder)
+        router.initionalViewController()
         
-        window?.rootViewController = navigationBar
+        window?.rootViewController = navigationController
         window?.makeKeyAndVisible()
     }
 }

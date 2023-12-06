@@ -21,6 +21,12 @@ class DetailViewController: UIViewController {
 
         presenter.setComment()
     }
+    
+    // MARK: - IBActions
+    @IBAction func tapAction() {
+        presenter.tap()
+    }
+    
 }
 
 // MARK: - DetailViewProtocol
